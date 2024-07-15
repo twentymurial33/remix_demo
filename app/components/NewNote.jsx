@@ -1,8 +1,11 @@
 import NewNoteStyles from './NewNote.css';
 
 function NewNote() {
+    // function handleSubmit(event) {
+    //     event.preventDefault()
+    // }
     return (
-       <form method="post" id="note-form">
+       <form method="post" id="note-form" >
         <p>
             <label htmlFor="title">Title</label>
             <input type="text" name="title" placeholder="Enter note here..." />
